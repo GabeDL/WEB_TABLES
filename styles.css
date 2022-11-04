@@ -1,0 +1,106 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+    border-collapse: separate;
+    width: 100%;
+}
+div.schedule-container{
+    padding: 20px;
+    background-color: lightcoral;
+    border: 5px inset grey;
+    width: auto;
+}
+table.schedule {
+    border: 5px ridge rgb(24, 12, 185);
+    border-collapse: collapse;
+    font-size: 13px;
+}
+table.schedule tr td:nth-child(1){
+    text-align: center;
+    font-weight: bold;
+    background-color: darkslategray;
+    color: white;
+}
+table.schedule td, th{
+    padding: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+table.schedule thead {
+    background-color: darkslategray;
+    color: white;
+}
+table.schedule tfoot {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+td.sleep {
+    background-color: rgba(231, 109, 39, 0.596);
+    text-align: center;
+}
+td.lstime {
+    background-color: lightblue;
+    text-align: center;
+}
+td.class {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+td.rdy {
+    background-color: lightgreen;
+    text-align: center;
+}
+td.lunch {
+    background-color: lightpink;
+    text-align: center;
+}
+td.dinner {
+    background-color: darkgray;
+    text-align: center;
+}
+td.hh {
+    background-color: royalblue;
+    text-align: center;
+    color: white;
+}
+td.vrys {
+    background-color: mediumpurple;
+    color: white;
+    text-align: center;
+}
+td.ch {
+    background-color: gold;
+    text-align: center;
+}
+td.gufu {
+    background-color: hotpink;
+    text-align: center;
+}
+table caption{
+    text-align: right;
+    caption-side: bottom;
+    font-weight: bold;
+}
+col#dayofweek {
+width: 16%;
+}
+col.hoursofday {
+    width: 12%;
+}
+dl {
+    display: table;
+    border-collapse: collapse;
+    width: 300px;
+}
+dl div {
+    display: table-row;
+}
+dt, dd {
+    display: table-cell; border: 1px solid black;
+    vertical-align: top;
+    padding: 5px;
+}
